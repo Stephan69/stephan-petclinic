@@ -250,7 +250,7 @@
                     <plugin>
                         <groupId>org.sonatype.plugins</groupId>
                         <artifactId>nexus-staging-maven-plugin</artifactId>
-                        <version>1.6.8</version>
+                        <version>1.6.6</version>
                         <executions>
                             <execution>
                                 <id>default-deploy</id>
@@ -262,7 +262,7 @@
                         </executions>
                         <configuration>
                             <serverId>nexus-releases</serverId>
-                            <nexusUrl>http://localhost:18081/</nexusUrl>
+                            <nexusUrl>http://localhost:8081/</nexusUrl>
                             <skipStaging>true</skipStaging>
                         </configuration>
                     </plugin>
